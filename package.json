@@ -1,0 +1,25 @@
+{
+  "name": "simonc312",
+  "version": "1.0.0",
+  "description": "github readme profile generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonc312/simonc312.git"
+  },
+  "author": "simonc312",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonc312/simonc312/issues"
+  },
+  "homepage": "https://github.com/simonc312/simonc312#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mustache": "^4.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}
