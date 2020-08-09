@@ -29,6 +29,7 @@ jobs:
         run: npm run-script build
         env:
           FLICKR_API_KEY: ${{ secrets.FLICKR_API_KEY }}
+          OPEN_WEATHER_API_KEY: ${{ secrets.OPEN_WEATHER_API_KEY }}
       - name: Push new README.md
         uses: mikeal/publish-to-github-action@master
         env:
