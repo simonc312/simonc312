@@ -75,7 +75,7 @@ async function setWeatherInformation() {
     .then(r => r.json())
     .then(r => {
       const debuglog = util.debuglog("openweather");
-      debuglog("weather api response: ", r);
+      debuglog("api response: ", r);
       let city = {};
       city.temp = `${Math.round(r.main.temp)}°F`;
       city.tempFeelsLike = `${Math.round(r.main.feels_like)}°F`;
@@ -100,21 +100,21 @@ async function setWeatherInformation() {
 async function generateReadMe() {
   const weatherPartial = fs.readFileSync('./weather.mustache');  
   const debuglog = util.debuglog('mustache');
-  debuglog('generateReadme() weatherPartial: ', weatherPartial.toString());
+  //debuglog('generateReadme() weatherPartial: ', weatherPartial.toString());
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, template) => {
     if (err) throw err;
     debuglog('generateReadme() DATA: ', DATA);
     const partials = {
         weather: weatherPartial.toString()
     };
-    debuglog('generateReadme() template: ', template.toString())
+    //debuglog('generateReadme() template: ', template.toString())
     const output = Mustache.render(template.toString(), DATA, partials);
     fs.writeFileSync('README.md', output);
   });
 }
 
 async function main() {
-  //await setPhotoStream();
+  await setPhotoStream();
   await setWeatherInformation();
   await generateReadMe();
 
