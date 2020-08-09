@@ -27,6 +27,8 @@ jobs:
         run: npm install
       - name: build README
         run: npm run-script build
+        env:
+          FLICKR_API_KEY: ${{ secrets.FLICKR_API_KEY }}
       - name: Push new README.md
         uses: mikeal/publish-to-github-action@master
         env:

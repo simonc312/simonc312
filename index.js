@@ -1,12 +1,19 @@
 require('dotenv').config();
+const moment = require('moment');
 const Mustache = require('mustache');
 const fetch = require('node-fetch');
+
 const fs = require('fs');
+const util = require('util');
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
+const FLICKR_API_KEY = process.env.FLICKR_API_KEY;
+const FLICKR_BASE_URI = `https://www.flickr.com/services/rest/?format=json&nojsoncallback=1&api_key=${FLICKR_API_KEY}`;
+const REFRESH_DATE = moment();
+
 let DATA = {
-  refresh_date: new Date().toLocaleDateString('en-GB', {
+  refresh_date: REFRESH_DATE.toDate().toLocaleDateString('en-GB', {
     weekday: 'long',
     month: 'long',
     day: 'numeric',
@@ -15,7 +22,39 @@ let DATA = {
     timeZoneName: 'short',
     timeZone: 'America/Los_Angeles',
   }),
+  photoStream: ['','',''] //default
 };
+
+/*
+https://www.flickr.com/services/api/flickr.photos.getSizes.html
+*/
+async function getPhotoUrls(photoId) {
+   return await fetch(`${FLICKR_BASE_URI}&method=flickr.photos.getSizes&photo_id=${photoId}`)
+    .then(r => r.json());;
+}
+
+/*
+https://www.flickr.com/services/api/flickr.interestingness.getList.html
+*/
+async function setPhotoStream() {
+    // no interesting photos available at start of current day
+    const photoDate = REFRESH_DATE.subtract(1, 'day').format('YYYY-MM-DD');
+    const pageSize = 3;
+    const debuglog = util.debuglog('flickr');
+    const response = await fetch(
+        `${FLICKR_BASE_URI}&method=flickr.interestingness.getList&date=${photoDate}&per_page=${pageSize}`,
+    ).then(r => r.json());
+    const photoUrlResponses = await Promise.all(response.photos.photo.map((p)=> {
+        debuglog("getPhotoUrls() photoId: ", p.id);
+        return getPhotoUrls(p.id);
+    }));
+    let photoStream = [];
+    photoUrlResponses.forEach(p => {
+        photoStream.push(p.sizes.size[1].source);
+    });
+    debuglog('setPhotoStream() photoStream: ', photoStream);
+    DATA.photoStream = photoStream;
+}
 
 /* async function setWeatherInformation() {
   await fetch(
@@ -42,13 +81,15 @@ let DATA = {
 async function generateReadMe() {
   await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
+    const debuglog = util.debuglog('mustache');
+    debuglog('generateReadme() DATA: ', DATA);
     const output = Mustache.render(data.toString(), DATA);
     fs.writeFileSync('README.md', output);
   });
 }
 
 async function main() {
-
+  await setPhotoStream();
   await generateReadMe();
 
 }
