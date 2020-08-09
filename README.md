@@ -20,6 +20,14 @@
   <li><a href="https://medium.com/@simonchen/design-process-for-sf-vehicle-theft-crime-visualization-13b5e0b8dd50"><b>SF Vehicle Theft Data Viz</b></a><br/><i>Messing around with Google Maps api</i></li>
   <li><a href="https://medium.com/@simonchen/how-i-tried-to-learn-adobe-illustrator-f88f875acad1#.fuqzr5bgu"><b>Learning Adobe Illustrator</b></a><br/><i>Inspired by Japanese Crane postcard.</i></li>
 </ul>
+
+<h3>Photo(n) Stream</h3>
+<div>
+    <a href="https://www.flickr.com/photos/winnepu/50201504451/sizes/q/"> <img src="https://live.staticflickr.com/65535/50201504451_4f6d19edfd_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/from-reinier/50200963128/sizes/q/"> <img src="https://live.staticflickr.com/65535/50200963128_054e12c235_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/piersmathias/50202952076/sizes/q/"> <img src="https://live.staticflickr.com/65535/50202952076_32e452a6c4_q.jpg"/></a>
+</div>
+
 <h3>Weather in Bay Area, California</h3>
 
 <h3>Where to find me</h3>
@@ -28,5 +36,5 @@ LinkedIn, Medium
 </p>
 
 ------------
-<p align="center">Last refresh: Sunday, August 9, 1:12 AM PDT<br /></p>
+<p align="center">Last refresh: Sunday, August 9, 2:30 AM PDT<br /></p>
 
