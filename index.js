@@ -22,7 +22,7 @@ let DATA = {
     timeZoneName: 'short',
     timeZone: 'America/Los_Angeles',
   }),
-  photoStream: ['','',''] //default
+  photoStream: [{},{},{}] //default
 };
 
 /*
@@ -40,17 +40,21 @@ async function setPhotoStream() {
     // no interesting photos available at start of current day
     const photoDate = REFRESH_DATE.subtract(1, 'day').format('YYYY-MM-DD');
     const pageSize = 3;
+    const photoSize = 1; // 150x150 large square
     const debuglog = util.debuglog('flickr');
     const response = await fetch(
         `${FLICKR_BASE_URI}&method=flickr.interestingness.getList&date=${photoDate}&per_page=${pageSize}`,
     ).then(r => r.json());
     const photoUrlResponses = await Promise.all(response.photos.photo.map((p)=> {
-        debuglog("getPhotoUrls() photoId: ", p.id);
+        debuglog("setPhotoStream() response photo: ", p);
         return getPhotoUrls(p.id);
     }));
     let photoStream = [];
     photoUrlResponses.forEach(p => {
-        photoStream.push(p.sizes.size[1].source);
+        photoStream.push({
+            source: p.sizes.size[photoSize].source,
+            url:  p.sizes.size[photoSize].url,
+        });
     });
     debuglog('setPhotoStream() photoStream: ', photoStream);
     DATA.photoStream = photoStream;
