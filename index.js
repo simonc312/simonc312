@@ -8,6 +8,7 @@ const util = require('util');
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
+const OPEN_WEATHER_API_KEY = process.env.OPEN_WEATHER_API_KEY;
 const FLICKR_API_KEY = process.env.FLICKR_API_KEY;
 const FLICKR_BASE_URI = `https://www.flickr.com/services/rest/?format=json&nojsoncallback=1&api_key=${FLICKR_API_KEY}`;
 const REFRESH_DATE = moment();
@@ -22,7 +23,8 @@ let DATA = {
     timeZoneName: 'short',
     timeZone: 'America/Los_Angeles',
   }),
-  photoStream: [{},{},{}] //default
+  photoStream: [{},{},{}], //default
+  weather: {}
 };
 
 /*
@@ -60,40 +62,60 @@ async function setPhotoStream() {
     DATA.photoStream = photoStream;
 }
 
-/* async function setWeatherInformation() {
+/*
+https://openweathermap.org/weather-data
+https://openweathermap.org/current
+*/
+async function setWeatherInformation() {
+  const cityId = '5387428'; //Richmond, CA
+  const weatherUnit = 'imperial';
   await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=stockholm&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`
+    `https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=${OPEN_WEATHER_API_KEY}&units=${weatherUnit}`
   )
     .then(r => r.json())
     .then(r => {
-      DATA.city_temperature = Math.round(r.main.temp);
-      DATA.city_weather = r.weather[0].description;
-      DATA.city_weather_icon = r.weather[0].icon;
-      DATA.sun_rise = new Date(r.sys.sunrise * 1000).toLocaleString('en-GB', {
+      const debuglog = util.debuglog("openweather");
+      debuglog("weather api response: ", r);
+      let city = {};
+      city.temp = `${Math.round(r.main.temp)}°F`;
+      city.tempFeelsLike = `${Math.round(r.main.feels_like)}°F`;
+      city.humidity = `${r.main.humidity}%`;
+      city.windSpeed = `${r.wind.speed}mph`;
+      city.description = r.weather[0].description;
+      city.icon = r.weather[0].icon;
+      city.sunRise = new Date(r.sys.sunrise * 1000).toLocaleString('en-GB', {
         hour: '2-digit',
         minute: '2-digit',
-        timeZone: 'Europe/Stockholm',
+        timeZone: 'America/Los_Angeles',
       });
-      DATA.sun_set = new Date(r.sys.sunset * 1000).toLocaleString('en-GB', {
+      city.sunSet = new Date(r.sys.sunset * 1000).toLocaleString('en-GB', {
         hour: '2-digit',
         minute: '2-digit',
-        timeZone: 'Europe/Stockholm',
+        timeZone: 'America/Los_Angeles',
       });
+      DATA.weather = city;
     });
-} */
+}
 
 async function generateReadMe() {
-  await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
+  const weatherPartial = fs.readFileSync('./weather.mustache');  
+  const debuglog = util.debuglog('mustache');
+  debuglog('generateReadme() weatherPartial: ', weatherPartial.toString());
+  await fs.readFile(MUSTACHE_MAIN_DIR, (err, template) => {
     if (err) throw err;
-    const debuglog = util.debuglog('mustache');
     debuglog('generateReadme() DATA: ', DATA);
-    const output = Mustache.render(data.toString(), DATA);
+    const partials = {
+        weather: weatherPartial.toString()
+    };
+    debuglog('generateReadme() template: ', template.toString())
+    const output = Mustache.render(template.toString(), DATA, partials);
     fs.writeFileSync('README.md', output);
   });
 }
 
 async function main() {
-  await setPhotoStream();
+  //await setPhotoStream();
+  await setWeatherInformation();
   await generateReadMe();
 
 }
