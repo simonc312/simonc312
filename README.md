@@ -43,18 +43,18 @@
 
 <h3>Photo(n) Stream</h3>
 <div>
-    <a href="https://www.flickr.com/photos/endogamia/50578741316/sizes/q/"> <img src="https://live.staticflickr.com/65535/50578741316_0a292bd4b1_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/143797678@N03/50582526797/sizes/q/"> <img src="https://live.staticflickr.com/65535/50582526797_afbb5a7baa_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/kappo-moriyoshi/50581756808/sizes/q/"> <img src="https://live.staticflickr.com/65535/50581756808_e696dff372_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/86832534@N03/50586627781/sizes/q/"> <img src="https://live.staticflickr.com/65535/50586627781_f95d4c4b90_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/stevebond/50585100871/sizes/q/"> <img src="https://live.staticflickr.com/65535/50585100871_7bc7f11415_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/stefanorugolo/50583720417/sizes/q/"> <img src="https://live.staticflickr.com/65535/50583720417_e55d7dd582_q.jpg"/></a>
 </div>
 
 <h3>Weather in Bay Area, California</h3>
 <div class="weather-partial">
 <div class="weather-header" style="height:128px">
-    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/03d.png">
+    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/04n.png">
     <h2 class="weather-right__temperature" 
     style="vertical-align:middle;display:inline-block;height:inherit;line-height:0.5">
-        53°F
+        52°F
     </h2>
 </div>
 <div class="weather-right-card">
@@ -64,19 +64,19 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">Currently</td>
-        <td class="weather-right__item weather-conditions">scattered clouds</td>
+        <td class="weather-right__item weather-conditions">broken clouds</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌡️Feels like</td>
-        <td class="weather-right__item weather-right__feels">48°F</td>
+        <td class="weather-right__item weather-right__feels">50°F</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">4mph</td>
+        <td class="weather-right__item weather-right__wind-speed">1.99mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">47%</td>
+        <td class="weather-right__item weather-right__humidity">75%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
@@ -100,5 +100,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Tuesday, November 10, 10:08 AM PST<br /></p>
+<p align="center">Last refresh: Tuesday, November 10, 10:08 PM PST<br /></p>
 
