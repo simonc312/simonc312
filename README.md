@@ -72,11 +72,11 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">6.96mph</td>
+        <td class="weather-right__item weather-right__wind-speed">8.75mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">91%</td>
+        <td class="weather-right__item weather-right__humidity">97%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
@@ -100,5 +100,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Wednesday, December 16, 10:13 PM PST<br /></p>
+<p align="center">Last refresh: Thursday, December 17, 4:16 AM PST<br /></p>
 
