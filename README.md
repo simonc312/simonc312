@@ -43,9 +43,9 @@
 
 <h3>Photo(n) Stream</h3>
 <div>
-    <a href="https://www.flickr.com/photos/189048631@N08/51394962250/sizes/q/"> <img src="https://live.staticflickr.com/65535/51394962250_6cde2f1c51_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/142027712@N08/51392661308/sizes/q/"> <img src="https://live.staticflickr.com/65535/51392661308_4781717f2f_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/lkbphotographic/51392972084/sizes/q/"> <img src="https://live.staticflickr.com/65535/51392972084_08a1dc42b7_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/131793185@N08/51397451849/sizes/q/"> <img src="https://live.staticflickr.com/65535/51397451849_1ee21feda1_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/faustodeseri/51394249106/sizes/q/"> <img src="https://live.staticflickr.com/65535/51394249106_40ed4d0115_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/125877475@N06/51393991697/sizes/q/"> <img src="https://live.staticflickr.com/65535/51393991697_f41ff5a7fb_q.jpg"/></a>
 </div>
 
 <h3>Weather in Bay Area, California</h3>
@@ -72,11 +72,11 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">1.99mph</td>
+        <td class="weather-right__item weather-right__wind-speed">3mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">88%</td>
+        <td class="weather-right__item weather-right__humidity">86%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
@@ -100,5 +100,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Monday, August 23, 5:18 AM PDT<br /></p>
+<p align="center">Last refresh: Monday, August 23, 11:13 PM PDT<br /></p>
 
