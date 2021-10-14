@@ -76,15 +76,15 @@
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">84%</td>
+        <td class="weather-right__item weather-right__humidity">85%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
-        <td class="weather-right__item weather-right__sunrise">07:16 AM</td>
+        <td class="weather-right__item weather-right__sunrise">07:17 AM</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌙Sunset</td>
-        <td class="weather-right__item weather-right__sunset">06:34 PM</td>
+        <td class="weather-right__item weather-right__sunset">06:33 PM</td>
         </tr>
     </tbody></table>
 </div>
@@ -100,5 +100,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Wednesday, October 13, 11:14 PM PDT<br /></p>
+<p align="center">Last refresh: Thursday, October 14, 5:18 AM PDT<br /></p>
 
