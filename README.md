@@ -43,18 +43,18 @@
 
 <h3>Photo(n) Stream</h3>
 <div>
-    <a href="https://www.flickr.com/photos/gavgristle/51730869410/sizes/q/"> <img src="https://live.staticflickr.com/65535/51730869410_76373e13db_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/ferdinand_hejl/51731074769/sizes/q/"> <img src="https://live.staticflickr.com/65535/51731074769_1ca7e5ffce_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/etude_photography/51731428064/sizes/q/"> <img src="https://live.staticflickr.com/65535/51731428064_3087302c4e_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/albertdros/51732305047/sizes/q/"> <img src="https://live.staticflickr.com/65535/51732305047_7e0a8fd728_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/helena_bezecna/51732765893/sizes/q/"> <img src="https://live.staticflickr.com/65535/51732765893_1cdfd6c6e8_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/adeosun_olamide/51730804712/sizes/q/"> <img src="https://live.staticflickr.com/65535/51730804712_9acb3ab2fe_q.jpg"/></a>
 </div>
 
 <h3>Weather in Bay Area, California</h3>
 <div class="weather-partial">
 <div class="weather-header" style="height:128px">
-    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/04d.png">
+    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/04n.png">
     <h2 class="weather-right__temperature" 
     style="vertical-align:middle;display:inline-block;height:inherit;line-height:0.5">
-        53°F
+        52°F
     </h2>
 </div>
 <div class="weather-right-card">
@@ -64,7 +64,7 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">Currently</td>
-        <td class="weather-right__item weather-conditions">broken clouds</td>
+        <td class="weather-right__item weather-conditions">overcast clouds</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌡️Feels like</td>
@@ -100,5 +100,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Wednesday, December 8, 10:15 AM PST<br /></p>
+<p align="center">Last refresh: Wednesday, December 8, 10:15 PM PST<br /></p>
 
