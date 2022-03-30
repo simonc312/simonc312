@@ -21,6 +21,6 @@
     "dotenv": "^8.2.0",
     "moment": "^2.27.0",
     "mustache": "^4.0.1",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   }
 }
