@@ -10,6 +10,7 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 
 const OPEN_WEATHER_API_KEY = process.env.OPEN_WEATHER_API_KEY;
 const FLICKR_API_KEY = process.env.FLICKR_API_KEY;
+if (FLICKR_API_KEY === undefined) throw Error("FLICKR_API_KEY env var required");
 const FLICKR_BASE_URI = `https://www.flickr.com/services/rest/?format=json&nojsoncallback=1&api_key=${FLICKR_API_KEY}`;
 const REFRESH_DATE = moment();
 
@@ -47,6 +48,8 @@ async function setPhotoStream() {
     const response = await fetch(
         `${FLICKR_BASE_URI}&method=flickr.interestingness.getList&date=${photoDate}&per_page=${pageSize}`,
     ).then(r => r.json());
+    debuglog("setPhotoStream() response: ", response);
+    if (response.stat == 'fail') throw new Error(response.message);
     const photoUrlResponses = await Promise.all(response.photos.photo.map((p)=> {
         debuglog("setPhotoStream() response photo: ", p);
         return getPhotoUrls(p.id);
@@ -114,10 +117,13 @@ async function generateReadMe() {
 }
 
 async function main() {
-  await setPhotoStream();
-  await setWeatherInformation();
-  await generateReadMe();
-
+  try {
+    await setPhotoStream();
+    await setWeatherInformation();
+    await generateReadMe();
+  } catch (err) {
+    console.error(err);
+  }
 }
 
 main();
