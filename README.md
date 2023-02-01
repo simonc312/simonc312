@@ -1,7 +1,7 @@
 <h1>Howdy, Space Cowboy.</h1>
 <img width="420px" src="https://media1.tenor.com/images/cb27963261e01e713455e8e6c37a1f46/tenor.gif" />
 
-<p>I'm Simon, currently living in the <b>Bay Area, California</b>. </p>
+<p>! </br> I'm Simon, _____ engineer, currently living in the <b>Bay Area, California</b>. </p>
 <h3>Trendy Buzzword Tech I have used</h3>
 <p>
   <img alt="python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -14,13 +14,9 @@
   <img alt="nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
   <img alt="typescript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="mongo" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
-  <img alt="redshift" src="https://img.shields.io/badge/-Redshift-CB3837?style=flat-square&logo=Amazon%20AWS&logoColor=white" />
-  <img alt="s3" src="https://img.shields.io/badge/-S3-000000?style=flat-square&logo=Amazon%20AWS&logoColor=white" />
   <img alt="airflow" src="https://img.shields.io/badge/-Airflow-007A88?style=flat-square&logo=Apache%20Airflow&logoColor=white" />
-  <img alt="looker" src="https://img.shields.io/badge/-Looker-4A154B?style=flat-square&logo=Looker&logoColor=white" />
   <img alt="airtable" src="https://img.shields.io/badge/-Airtable-18BFFF?style=flat-square&logo=Airtable&logoColor=white" />
   <img alt="android" src="https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=Android&logoColor=white" />
-  <img alt="solidity" src="https://img.shields.io/badge/-Solidity-000000?style=flat-square&logo=Solidity&logoColor=white" />
 
 </p>
 
@@ -38,22 +34,6 @@
 
 </p>
 
-<h3>Tech for Personal Projects</h3>
-<p>
-<img alt="adobe_illustrator" src="https://img.shields.io/badge/-Illustrator-FF9A00?style=flat-square&logo=Adobe%20Illustrator&logoColor=white" />
-<img alt="adobe_photoshop" src="https://img.shields.io/badge/-Photoshop-31A8FF?style=flat-square&logo=Adobe%20Photoshop&logoColor=white" />
-<img alt="adobe_premiere" src="https://img.shields.io/badge/-Premiere-31A8FF?style=flat-square&logo=Adobe%20Premiere%20Pro&logoColor=white" />
-<img alt="canva" src="https://img.shields.io/badge/-Canva-008CDD?style=flat-square&logo=Canva&logoColor=white" />
-<img alt="figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white" />
-<img alt="notion" src="https://img.shields.io/badge/-Notion-000000?style=flat-square&logo=Notion&logoColor=white" />
-<img alt="wave" src="https://img.shields.io/badge/-Wave-00457C?style=flat-square&logo=&logoColor=white" />
-<img alt="squarespace" src="https://img.shields.io/badge/-Squarespace-000000?style=flat-square&logo=Squarespace&logoColor=white" />
-<img alt="mailchimp" src="https://img.shields.io/badge/-Mailchimp-D24939?style=flat-square&logo=Mailchimp&logoColor=white" />
-<img alt="discord" src="https://img.shields.io/badge/-Discord-4A154B?style=flat-square&logo=Discord&logoColor=white" />
-<img alt="openAI" src="https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=OpenAI&logoColor=white" />
-
-</p>
-
 <h3>Blog posts</h3>
 <ul>
   <li><a href="https://medium.com/@simonchen/implementing-night-mode-for-sense-on-android-1ab178eeabb8"><b>How to Implement Night Mode in Android</b></a><br/><i>Documenting approach at Hello for a better night's sleep</i></li>
@@ -63,18 +43,18 @@
 
 <h3>Photo(n) Stream</h3>
 <div>
-    <a href="https://www.flickr.com/photos/javier26032006/52658489943/sizes/q/"> <img src="https://live.staticflickr.com/65535/52658489943_e1d979ccf2_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/111631195@N05/52655601326/sizes/q/"> <img src="https://live.staticflickr.com/65535/52655601326_5a07be78c7_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/marcbarrot/52658506984/sizes/q/"> <img src="https://live.staticflickr.com/65535/52658506984_5799e0e30e_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/192737731@N02/52660252916/sizes/q/"> <img src="https://live.staticflickr.com/65535/52660252916_fb658f12d6_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/piersmathias/52657403597/sizes/q/"> <img src="https://live.staticflickr.com/65535/52657403597_4d4d1831da_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/shutterjack/52659421527/sizes/q/"> <img src="https://live.staticflickr.com/65535/52659421527_1b370989e6_q.jpg"/></a>
 </div>
 
 <h3>Weather in Bay Area, California</h3>
 <div class="weather-partial">
 <div class="weather-header" style="height:128px">
-    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/01d.png">
+    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/02n.png">
     <h2 class="weather-right__temperature" 
     style="vertical-align:middle;display:inline-block;height:inherit;line-height:0.5">
-        48°F
+        46°F
     </h2>
 </div>
 <div class="weather-right-card">
@@ -84,19 +64,19 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">Currently</td>
-        <td class="weather-right__item weather-conditions">clear sky</td>
+        <td class="weather-right__item weather-conditions">few clouds</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌡️Feels like</td>
-        <td class="weather-right__item weather-right__feels">48°F</td>
+        <td class="weather-right__item weather-right__feels">46°F</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">3mph</td>
+        <td class="weather-right__item weather-right__wind-speed">1.99mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">40%</td>
+        <td class="weather-right__item weather-right__humidity">55%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
@@ -120,5 +100,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Tuesday, January 31, 10:15 AM PST<br /></p>
+<p align="center">Last refresh: Tuesday, January 31, 9:32 PM PST<br /></p>
 
