@@ -63,7 +63,7 @@
 <h3>Photo(n) Stream</h3>
 <div>
     <a href="https://www.flickr.com/photos/runqing/53262439416/sizes/q/"> <img src="https://live.staticflickr.com/65535/53262439416_732c303fc6_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/trevor_dobson_inefekt69/53263629212/sizes/q/"> <img src="https://live.staticflickr.com/65535/53263629212_998835c437_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/trevor_dobson_inefekt69/53263629212/sizes/q/"> <img src="https://live.staticflickr.com/65535/53263629212_f19bddf843_q.jpg"/></a>
     <a href="https://www.flickr.com/photos/mariebrowncottagegarden/53264095003/sizes/q/"> <img src="https://live.staticflickr.com/65535/53264095003_f72d9eb404_q.jpg"/></a>
 </div>
 
@@ -91,19 +91,19 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">3mph</td>
+        <td class="weather-right__item weather-right__wind-speed">1.01mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">84%</td>
+        <td class="weather-right__item weather-right__humidity">88%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
-        <td class="weather-right__item weather-right__sunrise">07:19 AM</td>
+        <td class="weather-right__item weather-right__sunrise">07:20 AM</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌙Sunset</td>
-        <td class="weather-right__item weather-right__sunset">06:29 PM</td>
+        <td class="weather-right__item weather-right__sunset">06:28 PM</td>
         </tr>
     </tbody></table>
 </div>
@@ -119,5 +119,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Tuesday, October 17, 11:15 PM PDT<br /></p>
+<p align="center">Last refresh: Wednesday, October 18, 5:21 AM PDT<br /></p>
 
