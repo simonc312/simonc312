@@ -62,15 +62,15 @@
 
 <h3>Photo(n) Stream</h3>
 <div>
-    <a href="https://www.flickr.com/photos/136969028@N04/53368126398/sizes/q/"> <img src="https://live.staticflickr.com/65535/53368126398_6b67bb3e5c_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/andrzej_kocot/53367027345/sizes/q/"> <img src="https://live.staticflickr.com/65535/53367027345_a5b808e1c6_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/189613620@N08/53364639267/sizes/q/"> <img src="https://live.staticflickr.com/65535/53364639267_ddfd2f183a_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/joeinpenticton/53370231359/sizes/q/"> <img src="https://live.staticflickr.com/65535/53370231359_154a20246f_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/134378250@N05/53367011767/sizes/q/"> <img src="https://live.staticflickr.com/65535/53367011767_fd412e41ee_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/mariebrowncottagegarden/53369537792/sizes/q/"> <img src="https://live.staticflickr.com/65535/53369537792_915263ca73_q.jpg"/></a>
 </div>
 
 <h3>Weather in Bay Area, California</h3>
 <div class="weather-partial">
 <div class="weather-header" style="height:128px">
-    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/04d.png">
+    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/04n.png">
     <h2 class="weather-right__temperature" 
     style="vertical-align:middle;display:inline-block;height:inherit;line-height:0.5">
         56°F
@@ -119,5 +119,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Saturday, December 2, 10:12 AM PST<br /></p>
+<p align="center">Last refresh: Saturday, December 2, 10:13 PM PST<br /></p>
 
