@@ -83,27 +83,27 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">Currently</td>
-        <td class="weather-right__item weather-conditions">moderate rain</td>
+        <td class="weather-right__item weather-conditions">light rain</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌡️Feels like</td>
-        <td class="weather-right__item weather-right__feels">43°F</td>
+        <td class="weather-right__item weather-right__feels">45°F</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">11.01mph</td>
+        <td class="weather-right__item weather-right__wind-speed">7mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">86%</td>
+        <td class="weather-right__item weather-right__humidity">89%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
-        <td class="weather-right__item weather-right__sunrise">07:12 AM</td>
+        <td class="weather-right__item weather-right__sunrise">07:11 AM</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌙Sunset</td>
-        <td class="weather-right__item weather-right__sunset">05:33 PM</td>
+        <td class="weather-right__item weather-right__sunset">05:35 PM</td>
         </tr>
     </tbody></table>
 </div>
@@ -119,5 +119,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Saturday, February 3, 10:13 PM PST<br /></p>
+<p align="center">Last refresh: Sunday, February 4, 4:18 AM PST<br /></p>
 
