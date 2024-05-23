@@ -62,7 +62,7 @@
 
 <h3>Photo(n) Stream</h3>
 <div>
-    <a href="https://www.flickr.com/photos/thanassis-economou/53736562197/sizes/q/"> <img src="https://live.staticflickr.com/65535/53736562197_e6013ca534_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/thanassis-economou/53736562197/sizes/q/"> <img src="https://live.staticflickr.com/65535/53736562197_abf7e6ce11_q.jpg"/></a>
     <a href="https://www.flickr.com/photos/129060298@N06/53736361974/sizes/q/"> <img src="https://live.staticflickr.com/65535/53736361974_e2483630b4_q.jpg"/></a>
     <a href="https://www.flickr.com/photos/53878984@N05/53735382482/sizes/q/"> <img src="https://live.staticflickr.com/65535/53735382482_b4b9a83952_q.jpg"/></a>
 </div>
@@ -73,7 +73,7 @@
     <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/01n.png">
     <h2 class="weather-right__temperature" 
     style="vertical-align:middle;display:inline-block;height:inherit;line-height:0.5">
-        56°F
+        52°F
     </h2>
 </div>
 <div class="weather-right-card">
@@ -87,15 +87,15 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌡️Feels like</td>
-        <td class="weather-right__item weather-right__feels">55°F</td>
+        <td class="weather-right__item weather-right__feels">50°F</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">5.01mph</td>
+        <td class="weather-right__item weather-right__wind-speed">8.99mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">73%</td>
+        <td class="weather-right__item weather-right__humidity">77%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
@@ -103,7 +103,7 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌙Sunset</td>
-        <td class="weather-right__item weather-right__sunset">08:18 PM</td>
+        <td class="weather-right__item weather-right__sunset">08:19 PM</td>
         </tr>
     </tbody></table>
 </div>
@@ -119,5 +119,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Wednesday, May 22, 11:17 PM PDT<br /></p>
+<p align="center">Last refresh: Thursday, May 23, 5:22 AM PDT<br /></p>
 
