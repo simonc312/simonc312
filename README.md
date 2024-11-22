@@ -91,19 +91,19 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">17mph</td>
+        <td class="weather-right__item weather-right__wind-speed">23mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">83%</td>
+        <td class="weather-right__item weather-right__humidity">78%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
-        <td class="weather-right__item weather-right__sunrise">06:57 AM</td>
+        <td class="weather-right__item weather-right__sunrise">06:58 AM</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌙Sunset</td>
-        <td class="weather-right__item weather-right__sunset">04:54 PM</td>
+        <td class="weather-right__item weather-right__sunset">04:53 PM</td>
         </tr>
     </tbody></table>
 </div>
@@ -119,5 +119,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Thursday, November 21, 10:20 PM PST<br /></p>
+<p align="center">Last refresh: Friday, November 22, 4:29 AM PST<br /></p>
 
