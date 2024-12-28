@@ -62,18 +62,18 @@
 
 <h3>Photo(n) Stream</h3>
 <div>
-    <a href="https://www.flickr.com/photos/erwinjenni/54227685149/sizes/q/"> <img src="https://live.staticflickr.com/65535/54227685149_c8c4274d90_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/125877475@N06/54224866792/sizes/q/"> <img src="https://live.staticflickr.com/65535/54224866792_fc4ab84b51_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/marcbarrot/54228041513/sizes/q/"> <img src="https://live.staticflickr.com/65535/54228041513_1cd4fe9f44_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/egofreed/54227261571/sizes/q/"> <img src="https://live.staticflickr.com/65535/54227261571_6c2da386c9_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/mariebrowncottagegarden/54230127944/sizes/q/"> <img src="https://live.staticflickr.com/65535/54230127944_3bbaef2115_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/144273526@N06/54229405591/sizes/q/"> <img src="https://live.staticflickr.com/65535/54229405591_300396d80c_q.jpg"/></a>
 </div>
 
 <h3>Weather in Bay Area, California</h3>
 <div class="weather-partial">
 <div class="weather-header" style="height:128px">
-    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/04d.png">
+    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/04n.png">
     <h2 class="weather-right__temperature" 
     style="vertical-align:middle;display:inline-block;height:inherit;line-height:0.5">
-        58°F
+        54°F
     </h2>
 </div>
 <div class="weather-right-card">
@@ -87,7 +87,7 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌡️Feels like</td>
-        <td class="weather-right__item weather-right__feels">58°F</td>
+        <td class="weather-right__item weather-right__feels">54°F</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
@@ -119,5 +119,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Friday, December 27, 10:18 AM PST<br /></p>
+<p align="center">Last refresh: Friday, December 27, 10:18 PM PST<br /></p>
 
