@@ -62,7 +62,7 @@
 
 <h3>Photo(n) Stream</h3>
 <div>
-    <a href="https://www.flickr.com/photos/runqing/54948676785/sizes/q/"> <img src="https://live.staticflickr.com/65535/54948676785_63d2923d1a_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/runqing/54948676785/sizes/q/"> <img src="https://live.staticflickr.com/65535/54948676785_0cc32f2d32_q.jpg"/></a>
     <a href="https://www.flickr.com/photos/yannog/54948400469/sizes/q/"> <img src="https://live.staticflickr.com/65535/54948400469_c67841230b_q.jpg"/></a>
     <a href="https://www.flickr.com/photos/from-reinier/54947481573/sizes/q/"> <img src="https://live.staticflickr.com/65535/54947481573_6fe150da8d_q.jpg"/></a>
 </div>
@@ -70,10 +70,10 @@
 <h3>Weather in Bay Area, California</h3>
 <div class="weather-partial">
 <div class="weather-header" style="height:128px">
-    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/01n.png">
+    <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/01d.png">
     <h2 class="weather-right__temperature" 
     style="vertical-align:middle;display:inline-block;height:inherit;line-height:0.5">
-        46°F
+        50°F
     </h2>
 </div>
 <div class="weather-right-card">
@@ -87,7 +87,7 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌡️Feels like</td>
-        <td class="weather-right__item weather-right__feels">44°F</td>
+        <td class="weather-right__item weather-right__feels">49°F</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
@@ -95,7 +95,7 @@
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">87%</td>
+        <td class="weather-right__item weather-right__humidity">82%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
@@ -119,5 +119,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Friday, November 28, 4:35 AM PST<br /></p>
+<p align="center">Last refresh: Friday, November 28, 10:23 AM PST<br /></p>
 
