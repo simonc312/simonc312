@@ -73,7 +73,7 @@
     <img width="128" height="128" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/04n.png">
     <h2 class="weather-right__temperature" 
     style="vertical-align:middle;display:inline-block;height:inherit;line-height:0.5">
-        55°F
+        53°F
     </h2>
 </div>
 <div class="weather-right-card">
@@ -87,23 +87,23 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌡️Feels like</td>
-        <td class="weather-right__item weather-right__feels">54°F</td>
+        <td class="weather-right__item weather-right__feels">52°F</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">1.99mph</td>
+        <td class="weather-right__item weather-right__wind-speed">1.01mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">83%</td>
+        <td class="weather-right__item weather-right__humidity">86%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
-        <td class="weather-right__item weather-right__sunrise">07:17 AM</td>
+        <td class="weather-right__item weather-right__sunrise">07:16 AM</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌙Sunset</td>
-        <td class="weather-right__item weather-right__sunset">05:26 PM</td>
+        <td class="weather-right__item weather-right__sunset">05:27 PM</td>
         </tr>
     </tbody></table>
 </div>
@@ -119,5 +119,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Tuesday, January 27, 10:32 PM PST<br /></p>
+<p align="center">Last refresh: Wednesday, January 28, 4:42 AM PST<br /></p>
 
