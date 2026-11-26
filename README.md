@@ -62,9 +62,9 @@
 
 <h3>Photo(n) Stream</h3>
 <div>
-    <a href="https://www.flickr.com/photos/bogush/55668860734/sizes/q/"> <img src="https://live.staticflickr.com/65535/55668860734_aab657d2f0_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/magoo7/55670935308/sizes/q/"> <img src="https://live.staticflickr.com/65535/55670935308_a0c9b88220_q.jpg"/></a>
-    <a href="https://www.flickr.com/photos/joergschaefer/55668968769/sizes/q/"> <img src="https://live.staticflickr.com/65535/55668968769_a8d8a66c57_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/131437518@N07/55281095575/sizes/q/"> <img src="https://live.staticflickr.com/65535/55281095575_14d6e5e95c_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/yefersonlozano/51935181109/sizes/q/"> <img src="https://live.staticflickr.com/65535/51935181109_042c71c9f0_q.jpg"/></a>
+    <a href="https://www.flickr.com/photos/veredgf/55628963278/sizes/q/"> <img src="https://live.staticflickr.com/65535/55628963278_a2fc8397d7_q.jpg"/></a>
 </div>
 
 <h3>Weather in Bay Area, California</h3>
@@ -87,19 +87,19 @@
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌡️Feels like</td>
-        <td class="weather-right__item weather-right__feels">51°F</td>
+        <td class="weather-right__item weather-right__feels">52°F</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌪️Wind</td>
-        <td class="weather-right__item weather-right__wind-speed">7mph</td>
+        <td class="weather-right__item weather-right__wind-speed">5.99mph</td>
         </tr>
         <tr class="weather-right-card__items">
         <td class="weather-right__item">💦Humidity</td>
-        <td class="weather-right__item weather-right__humidity">89%</td>
+        <td class="weather-right__item weather-right__humidity">92%</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌅Sunrise</td>
-        <td class="weather-right__item weather-right__sunrise">07:00 AM</td>
+        <td class="weather-right__item weather-right__sunrise">07:01 AM</td>
         </tr>
         <tr class="weather-right__items">
         <td class="weather-right__item">🌙Sunset</td>
@@ -119,5 +119,5 @@
 </p>
 
 ------------
-<p align="center">Last refresh: Wednesday, November 25, 8:44 AM PST<br /></p>
+<p align="center">Last refresh: Thursday, November 26, 8:19 AM PST<br /></p>
 
